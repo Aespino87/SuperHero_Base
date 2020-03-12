@@ -1,0 +1,32 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container" >
+   
+  </div>
+</div>
+<div class="container">
+    
+<div class="row">
+        <div class="col-md-8 mx-auto input-group mb-3" id="superheroNameInput" >
+  <textarea type="text" class="form-control" placeholder="Enter a superhero you want to add and click the submit button." aria-label="Enter a superhero you want to add and click the submit button." aria-describedby="basic-addon2"></textarea>
+  <div class="input-group-append">
+     <button id="submitHero" type="button" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+
+        
+    </div>
+    
+    <div class="row my-2">
+        <div id="heroesNotOnTeam" class="col-6">
+        </div>
+        <div id="heroesOnTeam" class="col-6">
+        </div>
+    </div>
+    
+</div>
+<script>
+    // Load data from database
+    var heroList = {{{stringifyJson heroes}}};
+    
+</script>
+<script src="/assets/js/main.js"></script>

@@ -1,0 +1,31 @@
+{
+  "name": "superhero_base",
+  "version": "1.0.0",
+  "description": "Make a team of your favorite super heroes",
+  "main": "server.js",
+  "scripts": {
+    "devstart": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aespino87/SuperHero_Base.git"
+  },
+  "keywords": [
+    "Superhero",
+    "Team",
+    "builder"
+  ],
+  "author": "Adam Espino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aespino87/SuperHero_Base/issues"
+  },
+  "homepage": "https://github.com/Aespino87/SuperHero_Base#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
